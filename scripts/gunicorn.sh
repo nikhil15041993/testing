@@ -10,7 +10,7 @@ python3 manage.py collectstatic -- no-input
 
 echo "Migrations done"
 
-cd /var/lib/jenkins/workspace/python-ci-cd/scripts
+cd /var/lib/jenkins/workspace/python-ci-cd/
 
 sudo cp -rf scripts/gunicorn.socket /etc/systemd/system/
 sudo cp -rf scripts/gunicorn.service /etc/systemd/system/
